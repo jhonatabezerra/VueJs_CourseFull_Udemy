@@ -1,0 +1,21 @@
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+<div id="opp">
+  <input type="text" v-on:input="ChangeTitle">
+  <p>{{ title }}!</p>
+</div>
+
+
+<script>
+    new Vue({
+    el: '#opp',
+    data: {
+        title: 'Usando VueJS'
+        },
+        methods: {
+          ChangeTitle(event){
+            this.title = event.target.value
+          }
+        }
+    })
+</script>
