@@ -1,4 +1,4 @@
-# Udemy---vue-js-completo
+# VueJs_CourseFull_Udemy
 This repository aims to store the projects that were written based on the Udemy lessons from the vue-js-completo.
 
 reference: https://www.udemy.com/course/vue-js-completo/
